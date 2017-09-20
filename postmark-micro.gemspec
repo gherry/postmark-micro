@@ -3,17 +3,17 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "sendgrid_micro/version"
+require "postmark_micro/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "sendgrid-micro"
-  s.version     = SendgridMicro::VERSION
+  s.name        = "postmark-micro"
+  s.version     = PostmarkMicro::VERSION
   s.authors     = ["Gherry Harahap"]
   s.email       = ["gherry@tradegecko.com"]
-  s.homepage    = "https://sendgrid.com/docs/API_Reference/index.html"
-  s.summary     = "Basic SendGrid ActionMailer support"
-  s.description = "Basic SendGrid ActionMailer support"
+  s.homepage    = "https://postmarkapp.com/developer"
+  s.summary     = "Basic Postmark ActionMailer support"
+  s.description = "Basic Postmark ActionMailer support"
 
 
   s.files = Dir["{lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]

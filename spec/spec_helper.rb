@@ -1,10 +1,10 @@
 require 'minitest/autorun'
 require 'minitest/matchers'
 require 'minitest/pride'
-require 'sendgrid-micro'
+require 'postmark-micro'
 
 MiniTest::Spec.before do
-  SendgridMicro.configure do |config|
+  PostmarkMicro.configure do |config|
     config.username = "Glinda"
     config.password = "thegood"
     config.domain   = "glinda@wicked.com"

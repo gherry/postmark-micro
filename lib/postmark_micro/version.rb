@@ -1,3 +1,3 @@
-module SendgridMicro
+module PostmarkMicro
   VERSION = "0.0.1"
 end

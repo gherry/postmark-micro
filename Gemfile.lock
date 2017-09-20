@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sendgrid-micro (0.1.0)
+    postmark-micro (0.0.1)
       activesupport (>= 3.1.0)
       rack (>= 1.4.0)
 
@@ -82,8 +82,8 @@ DEPENDENCIES
   minitest
   minitest-matchers
   mocha
+  postmark-micro!
   rake
-  sendgrid-micro!
 
 BUNDLED WITH
-   1.13.2
+   1.16.0.pre.2
